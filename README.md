@@ -1,3 +1,3 @@
-The name of this project is **guessing_game**
-vi., 26 de ene. de 2018 19:40:03
-26
+The name of the project is **guessing_game**
+Sa 27. Jan 12:35:34 CET 2018
+22

@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
 # File: guessinggame.sh
-
 result=$(ls | wc -w)
-
 echo "How many files are in this directory?" 
 echo "Enter your guess:"
-
 function read_user_guess {
 	read user_input
 	echo $user_input
 }
-
 guess=$(read_user_guess)
-
 while [[ $guess != $result ]]
 do
 	if [[ $guess < $result ]]

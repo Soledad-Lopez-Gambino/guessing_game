@@ -1,8 +1,5 @@
-#!/usr/bin/env bash
-# File: guessinggame.sh
-
 README.md: guessinggame.sh
 	touch README.md
-	echo "The name of this project is **guessing_game**" > README.md
-	echo $(date) >> README.md
-	echo $(cat guessinggame.sh | wc -l) >> README.md
+	echo "The name of the project is **guessing_game**" > README.md
+	date >> README.md
+	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
